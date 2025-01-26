@@ -1,0 +1,68 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: bisque;
+  margin: 0;
+  overflow: hidden;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50vw;
+  height: 50vh;
+  max-width: 500px;
+  background-color: bisque;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 1rem;
+}
+
+.production-canvas {
+  background-color: white;
+  width: 100%;
+  height: 65%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.controls {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.options {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.color-option {
+  display: flex;
+  gap: 1rem;
+  align-items: start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
